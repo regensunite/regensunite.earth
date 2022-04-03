@@ -30,7 +30,7 @@ export default class Home extends React.Component {
           <meta name="description" content={sitemap.index.description} />
         </Head>
 
-        <main className="max-w-screen-md px-4 mx-auto">
+        <main className="content max-w-screen-md px-4 mx-auto">
           {!page.body && <p>Loading...</p>}
           {page.body === "not_published" && (
             <ErrorNotPublished googleDocId={googleDocId} />

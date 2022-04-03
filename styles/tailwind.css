@@ -29,16 +29,16 @@ span {
 
 .content a,
 .content span a {
-  text-decoration: none !important;
-  @apply no-underline text-green-700 !important;
+  text-decoration: none;
+  @apply no-underline text-green-600;
 }
 
 .content a:hover {
-  @apply text-green-900;
+  @apply text-green-800;
 }
 
 .content a:visited {
-  @apply text-green-600;
+  @apply text-green-500;
 }
 
 h1 {
