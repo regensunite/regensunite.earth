@@ -19,5 +19,20 @@
     "title": "Regens Unite - contributions",
     "description": "Help us make Regens Unite happen. Contribute!",
     "googleDocId": "1VMmPmMTRj_iFz_tYYjHMS2DVPNe3puIx_QOAh8GXuzk"
+  },
+  "venue": {
+    "title": "Regens Unite - Venue",
+    "description": "All about where Regens will meet in Brussels May 19-20 2022.",
+    "googleDocId": "1cwrnfc8LJv2xyOMccDZM1GtHZhbgtLxgws0ypjbQ-kk"
+  },
+  "finance": {
+    "title": "Regens Unite - Finance Working Group",
+    "description": "Working group to manage the finance of Regens Unite Brussels.",
+    "googleDocId": "1pw0EAubWTok6ikG3sFZAv9ZUntY7DQjlh03OATPvFKQ"
+  },
+  "facilitators": {
+    "title": "Regens Unite - Facilitators Working Group",
+    "description": "Working group to facilitate the event.",
+    "googleDocId": "1uq6nuj8UldXE3KpvzIcj4xpgfGZQzqYudN18fykhgOE"
   }
 }
