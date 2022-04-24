@@ -30,6 +30,11 @@
     "description": "Working group to manage the finance of Regens Unite Brussels.",
     "googleDocId": "1pw0EAubWTok6ikG3sFZAv9ZUntY7DQjlh03OATPvFKQ"
   },
+  "participants": {
+    "title": "Regens Unite - Confirmed Participants",
+    "description": "Join those fabulous regens who have already confirmed their attendance.",
+    "googleDocId": "1zcrFUf2XOTk7Vmt7I2hXhxgujpOoheGSo13vs0pJ6K8"
+  },
   "facilitators": {
     "title": "Regens Unite - Facilitators Working Group",
     "description": "Working group to facilitate the event.",

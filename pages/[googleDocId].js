@@ -8,7 +8,6 @@ import ErrorInvalidDocId from "../components/ErrorInvalidDocId";
 import RenderGoogleDoc from "../components/RenderGoogleDoc";
 import sitemap from "../sitemap.json";
 import { useEffect, useState } from "react";
-import { times } from "lodash";
 
 const defaultValues = sitemap.index;
 

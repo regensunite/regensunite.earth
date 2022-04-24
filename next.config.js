@@ -12,6 +12,8 @@ module.exports = {
       "lh4.googleusercontent.com",
       "lh5.googleusercontent.com",
       "lh6.googleusercontent.com",
+      "dl.airtable.com",
+      "pbs.twimg.com",
     ],
   },
   async redirects() {

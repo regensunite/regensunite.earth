@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 
 function Outline({ outline, onChange }) {
-  if (!outline || !outline.length) return null;
+  if (!outline || !outline.length || outline.length < 10) return null;
   const [isActive, setActive] = useState(false);
 
   function toggleMenu() {
