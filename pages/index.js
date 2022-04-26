@@ -26,8 +26,9 @@ export default class Home extends React.Component {
       <div className="w-full">
         <Head>
           <title>{sitemap.index.title}</title>
-          <link rel="icon" href="/images/allforclimate-favicon.png" />
+          <link rel="icon" href={sitemap.index.favicon} />
           <meta name="description" content={sitemap.index.description} />
+          <meta name="og:image" content={sitemap.index.image} />
         </Head>
 
         <main className="content max-w-screen-md px-4 mx-auto">
