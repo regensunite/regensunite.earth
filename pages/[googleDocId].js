@@ -53,6 +53,8 @@ export async function getStaticProps({ params }) {
     error = e.message;
   }
 
+  doc = doc || {};
+
   const page = {
     title: pageInfo.title || doc.title || null,
     description: pageInfo.description || doc.description || null,
