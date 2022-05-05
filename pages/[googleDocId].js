@@ -165,7 +165,7 @@ export default function Home({ page }) {
         {outline && (
           <Outline outline={outline} onChange={() => computeOffset()} />
         )}
-        <div className="content px-4 mx-auto max-w-screen-md flex-1 overflow-auto">
+        <div className="content px-4 mx-auto max-w-screen-md flex-1">
           {!body && !error && <p>Loading...</p>}
           {error === "not_published" && (
             <ErrorNotPublished googleDocId={googleDocId} />
