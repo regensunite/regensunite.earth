@@ -42,7 +42,7 @@ span {
 }
 
 h1 {
-  @apply text-3xl;
+  @apply text-3xl mt-8 mb-4;
 }
 
 h2,
