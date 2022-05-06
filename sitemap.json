@@ -45,6 +45,11 @@
     "description": "Working group to manage the finance of Regens Unite Brussels.",
     "googleDocId": "1pw0EAubWTok6ikG3sFZAv9ZUntY7DQjlh03OATPvFKQ"
   },
+  "travelfund": {
+    "title": "Regens Unite - Travel Fund",
+    "description": "All you need to know to contribute to the travel fund or to get your travel costs reimbursed.",
+    "googleDocId": "1Df9HGdYftOvFiA9kTJVJSmcRo6BVPAZ7b0vdF2018nI"
+  },
   "participants": {
     "title": "Regens Unite - Confirmed Participants",
     "description": "Join those fabulous regens who have already confirmed their attendance.",
