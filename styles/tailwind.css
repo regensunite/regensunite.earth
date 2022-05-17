@@ -106,3 +106,7 @@ img {
   @apply my-2 -mx-4;
   display: inline-block;
 }
+
+td {
+  @apply p-1;
+}
