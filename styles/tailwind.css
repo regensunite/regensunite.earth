@@ -45,9 +45,9 @@ h1 {
   @apply text-3xl mt-8 mb-4;
 }
 
-h2,
-h3 {
-  @apply font-semibold mt-8 mb-2 text-2xl;
+h2, h2 span,
+h3, h3 span {
+  @apply font-normal mt-8 mb-2 text-2xl;
 }
 
 h3 {
