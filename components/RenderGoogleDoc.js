@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Airtable from "../components/Airtable";
+import Balance from "../components/Balance";
 import ReactDOM from "react-dom";
 import ReactHtmlParser from "react-html-parser";
 
@@ -28,6 +29,15 @@ class RenderGoogleDoc extends React.Component {
         if (node.type === "tag" && node.name === "airtable") {
           return (
             <Airtable base={node.attribs.base} table={node.attribs.table} />
+          );
+        }
+        if (node.type === "tag" && node.name === "balance") {
+          return (
+            <Balance
+              chain={node.attribs.chain}
+              address={node.attribs.address}
+              token={node.attribs.token}
+            />
           );
         }
         if (node.type === "tag" && node.name === "img") {
