@@ -74,7 +74,7 @@ module.exports = {
           },
         ],
         permanent: false,
-        destination: "https://discord.gg/PdVnQY2TwM",
+        destination: "https://discord.gg/QcfPAJaWb2",
       },
     ];
   },
