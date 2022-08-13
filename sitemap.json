@@ -31,10 +31,15 @@
     "favicon": "/images/regensunite-favicon.gif",
     "googleDocId": "1vRRNapSrmgHLy-si79fV3bcWh4LwrTOPZuWHeEaqGZ0"
   },
-  "contributions": {
-    "title": "Regens Unite - contributions",
+  "brussels/contributions": {
+    "title": "Regens Unite Brussels - contributions",
     "description": "Help us make Regens Unite happen. Contribute!",
     "googleDocId": "1VMmPmMTRj_iFz_tYYjHMS2DVPNe3puIx_QOAh8GXuzk"
+  },
+  "berlin/contributions": {
+    "title": "Regens Unite Berlin - contributions",
+    "description": "Help us make Regens Unite happen. Contribute!",
+    "googleDocId": "1JyYrhSVEqqaIp3CsxUtvHRvgoiz9Aljg87TtgXZF0o0"
   },
   "venue": {
     "title": "Regens Unite - Venue",
@@ -46,7 +51,17 @@
     "description": "All about where Regens will meet in Brussels May 19-20 2022.",
     "googleDocId": "1-R1TpYkB6xRMrrrcMI4gYfM0hrnl1ij0-mCIA7et9Zo"
   },
-  "program": {
+  "berlin/info": {
+    "title": "Regens Unite Berlin - Practical Information",
+    "description": "All about where Regens will meet in Berlin September 16-17.",
+    "googleDocId": "1j32PX8EppcGLO0tXtnoIhMkFyw8G3s7vwKGERgLEBzg"
+  },
+  "berlin/program": {
+    "title": "Regens Unite Berlin - Program",
+    "description": "We are designing the program while you are reading this, working with all suggestions from participants.",
+    "googleDocId": "1JoK7BcY8PEOpy4eOGp737yJzj7Ab0Mw1r5TIgdCzXGE"
+  },
+  "brussels/program": {
     "title": "Regens Unite - Program",
     "description": "We are designing the program while you are reading this, working with all suggestions from participants.",
     "googleDocId": "1dxEdMSZzEN9GIZR5u00wcxWjmA5NSuuW8lbCTUc5dqk"
