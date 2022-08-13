@@ -3,9 +3,25 @@
     "title": "Regens Unite - 2-day conversation to move from sustain to regen",
     "description":
       "May 19-20, join us in Brussels to explore together how we can move the conversation from sustain to regen.",
-    "image": "/images/regensunite-banner-small.jpg",
+    "image": "/images/regensunite-banner-small-brussels-2022.jpg",
     "favicon": "/images/regensunite-favicon.gif",
     "googleDocId": "1hhINyD2nwdhXX3nAyaZp_T89znWaNZ4jOhAxX08nCrg"
+  },
+  "berlin": {
+    "title": "Regens Unite - 2-day conversation in Berlin to move from sustain to regen",
+    "description":
+      "September 16-17, join us in Berlin to explore together how we can move the conversation from sustain to regen.",
+    "image": "/images/regensunite-banner-small.jpg",
+    "favicon": "/images/regensunite-favicon.gif",
+    "googleDocId": "16Zmy1MjANz1hwxl6BT7QlfTqlBLiEsNQrnM5YaDVi_I"
+  },
+  "brussels": {
+    "title": "Regens Unite - 2-day conversation in Brussels to move from sustain to regen",
+    "description":
+      "Join us in Brussels to explore together how we can move the conversation from sustain to regen.",
+    "image": "/images/regensunite-banner-small-brussels-2022.jpg",
+    "favicon": "/images/regensunite-favicon.gif",
+    "googleDocId": "1FYy-LUa0qeEbDqnBavqcrMHLY_bzeJB2a3HWJsRydCU"
   },
   "staging": {
     "title": "STAGING - Regens Unite - 2-day conversation to move from sustain to regen",
