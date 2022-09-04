@@ -3,7 +3,7 @@
     "title": "Regens Unite",
     "description":
       "Meet fellow regens that have different pieces of the puzzle 🧩 to regenerate people 🌱, communities 🌻 and the planet 🌍",
-    "image": "/images/regensunite-banner-small-brussels-2022.jpg",
+    "image": "/images/regensunite-banner-small.jpg",
     "favicon": "/images/regensunite-favicon.gif",
     "googleDocId": "1hhINyD2nwdhXX3nAyaZp_T89znWaNZ4jOhAxX08nCrg"
   },
@@ -100,7 +100,7 @@
     "title": "Regens Unite - 2-day conversation in Amsterdam to move from sustain to regen",
     "description":
     "September 22-24, join us in Amsterdam to explore together how we can move the conversation from sustain to regen.",
-    "image": "/images/regensunite-banner-small-2022.jpg",
+    "image": "/images/regensunite-banner-small.jpg",
     "favicon": "/images/regensunite-favicon.gif",
     "googleDocId": "1nyB-xpRS2o_9hF5zOcA2tMB1o-au8i7M5bAcMd8Jvck"
   },
@@ -118,5 +118,28 @@
     "title": "Regens Unite Amsterdam - Program",
     "description": "We are designing the program while you are reading this, working with all suggestions from participants.",
     "googleDocId": "15LwroxQCsh54HZ2EYzeviZfSLav0MZy553bqBgVDGUA"
+  },
+  "bogota": {
+    "title": "Regens Unite - 2-day conversation in Bogotá to move from sustain to regen",
+    "description":
+    "October 11-14, join us in Bogotá to explore together how we can move the conversation from sustain to regen.",
+    "image": "/images/regensunite-banner-small.jpg",
+    "favicon": "/images/regensunite-favicon.gif",
+    "googleDocId": "1yTDOrz9Mno3d-KHRzJ04xylusktUiBtiEkF57uFYHuY"
+  },
+  "bogota/contributions": {
+    "title": "Regens Unite Bogotá - contributions",
+    "description": "Help us make Regens Unite happen. Contribute!",
+    "googleDocId": "1nz2MfT96eztHOsHYxa1imW91AjViKGzdHL8hqMVay3o"
+  },
+  "bogota/info": {
+    "title": "Regens Unite Bogotá - Practical Information",
+    "description": "All about where Regens will meet in Bogotá October 11-14.",
+    "googleDocId": "1R4U1qXK4CGpjO1jFiFnnoLdPqYMwTz3rVXYIc9JHkwM"
+  },
+  "bogota/program": {
+    "title": "Regens Unite Bogotá - Program",
+    "description": "We are designing the program while you are reading this, working with all suggestions from participants.",
+    "googleDocId": "1EUYX2qrm7op7RvkXwdfdNHpad2BUpAfLpGo7_LhQxrQ"
   }
 }
