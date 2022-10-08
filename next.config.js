@@ -76,6 +76,17 @@ module.exports = {
         permanent: false,
         destination: "https://discord.gg/QcfPAJaWb2",
       },
+      {
+        source: "/(.*)",
+        has: [
+          {
+            type: "host",
+            value: "bogota.regensunite.earth",
+          },
+        ],
+        permanent: false,
+        destination: "https://regensunite.com/bogota",
+      },
     ];
   },
 };
