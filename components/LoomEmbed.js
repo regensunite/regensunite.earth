@@ -10,7 +10,7 @@ export default ({ id }) => {
     >
       <iframe
         src={`https://www.loom.com/embed/${id}`}
-        frameborder="0"
+        frameBorder="0"
         allowFullScreen
         style={{
           position: "absolute",

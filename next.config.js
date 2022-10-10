@@ -85,7 +85,7 @@ module.exports = {
           },
         ],
         permanent: false,
-        destination: "https://regensunite.com/bogota",
+        destination: "https://regensunite.co/bogota",
       },
     ];
   },

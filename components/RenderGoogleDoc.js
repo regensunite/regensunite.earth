@@ -2,58 +2,53 @@ import React from "react";
 import Image from "next/image";
 import Airtable from "../components/Airtable";
 import Balance from "../components/Balance";
-import ReactDOM from "react-dom";
-import ReactHtmlParser from "react-html-parser";
+import ReactHtmlParser from "html-react-parser";
 
-class RenderGoogleDoc extends React.Component {
-  scriptsLoaded = {};
+export default function RenderGoogleDoc({ html }) {
+  const scriptsLoaded = {};
 
-  render() {
-    const { html } = this.props;
-    const options = {
-      transform: (node) => {
-        if (node.name === "script") {
-          if (typeof document === "undefined") return;
-          if (this.scriptsLoaded[node.attribs.src]) {
-            console.log("Script", node.attribs.src, "already loaded");
-            return;
-          }
-          this.scriptsLoaded[node.attribs.src] = true;
-          var script = document.createElement("script");
-          script.src = node.attribs.src;
-          script.onload = function () {
-            console.log("script loaded:", node.attribs.src);
-          };
-          document.head.appendChild(script);
+  const options = {
+    replace: (node) => {
+      if (node.name === "script") {
+        if (typeof document === "undefined") return;
+        if (scriptsLoaded[node.attribs.src]) {
+          console.log("Script", node.attribs.src, "already loaded");
+          return;
         }
-        if (node.type === "tag" && node.name === "airtable") {
-          return (
-            <Airtable base={node.attribs.base} table={node.attribs.table} />
-          );
-        }
-        if (node.type === "tag" && node.name === "balance") {
-          return (
-            <Balance
-              chain={node.attribs.chain}
-              address={node.attribs.address}
-              token={node.attribs.token}
-            />
-          );
-        }
-        if (node.type === "tag" && node.name === "img") {
-          return (
-            <Image
-              src={node.attribs.src}
-              width={node.attribs.width}
-              height={node.attribs.height}
-              layout="responsive"
-            />
-          );
-        }
-      },
-    };
-    return <div>{ReactHtmlParser(`<div>${html}</div>`, options)}</div>;
-  }
+        scriptsLoaded[node.attribs.src] = true;
+        var script = document.createElement("script");
+        script.src = node.attribs.src;
+        script.onload = function () {
+          console.log("script loaded:", node.attribs.src);
+        };
+        document.head.appendChild(script);
+      }
+      if (node.type === "tag" && node.name === "airtable") {
+        return <Airtable base={node.attribs.base} table={node.attribs.table} />;
+      }
+      if (node.type === "tag" && node.name === "balance") {
+        return (
+          <Balance
+            chain={node.attribs.chain}
+            address={node.attribs.address}
+            token={node.attribs.token}
+          />
+        );
+      }
+      if (node.type === "tag" && node.name === "img") {
+        return (
+          <Image
+            src={node.attribs.src}
+            width={node.attribs.width}
+            height={node.attribs.height}
+            layout="responsive"
+          />
+        );
+      }
+    },
+  };
+
+  const reactDom = ReactHtmlParser(`<div>${html}</div>`, options);
+
+  return <div>{reactDom}</div>;
 }
-
-export default RenderGoogleDoc;
