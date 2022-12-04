@@ -87,6 +87,17 @@ module.exports = {
         permanent: false,
         destination: "https://regensunite.co/bogota",
       },
+      {
+        source: "/(.*)",
+        has: [
+          {
+            type: "host",
+            value: "passbolt.regensunite.earth",
+          },
+        ],
+        permanent: false,
+        destination: "https://passbolt-regens-unite.fly.dev/",
+      },
     ];
   },
 };
